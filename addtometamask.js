@@ -19,7 +19,7 @@ async function addNetwork(type) {
         var params;
         if (isTestnet == "false") {
             if (netID == "56") {
-                alert("BSC Network has already been added to Metamask.");
+                alert("A rede já foi adicionada ao Metamask.");
                 return;
             } else {
                 params = [{
