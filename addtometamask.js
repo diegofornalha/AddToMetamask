@@ -36,7 +36,7 @@ async function addNetwork(type) {
             }
         } else {
             if (netID == "97") {
-                alert("BSC Test Network has already been added to Metamask.");
+                alert("Já foi adicionado ao Metamask");
                 return;
             } else {
                 params = [{
@@ -58,7 +58,7 @@ async function addNetwork(type) {
             params
         }).then(()=>console.log('Success')).catch((error)=>console.log("Error", error.message));
     } else {
-        alert('Unable to locate a compatible web3 browser!');
+        alert('Incapaz de localizar um navegador web3 compatível!');
     }
 }
 
@@ -83,11 +83,11 @@ function addToWallet() {
             network = 'Bsc';
             break;
         default:
-            console.log('This is an unknown network.');
+            console.log('Esta é uma rede desconhecida');
         }
 
         if (network.toLowerCase() !== net.toLowerCase()) {
-            alert("Please connect to Bsc network");
+            alert("Conecte-se à rede Bsc");
             return false;
         } else {
             try {
