@@ -1,8 +1,8 @@
-Allow your users to add your BEP20 Token and Binance Smart Chain Network to MetaMask.
+Permita que seus usuários adicionem seu Token BEP20 e Rede Inteligente de Cadeia Binance ao MetaMask.
 
-MetaMask supports EIP 747, which defines a way for sites to suggest an asset to their users’ wallet to track, I decided to build a tool to do that in the simplest way.
+Suporta MetaMask EIP 747, que define uma maneira de os sites sugerirem um ativo para a carteira de seus usuários rastrear, decidi construir uma ferramenta para fazer isso da maneira mais simples.
 
-just change options at `addtometamask.js`, thats all
+apenas altere as opções em `addtometamask.js`, isso é tudo
 
 ```
 params: {
