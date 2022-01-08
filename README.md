@@ -11,7 +11,7 @@ params: {
         'address': '0x6E712547f5372103d9c3918144f4cA6fe06cF2b1',
         'symbol': 'LDSC',
         'decimals': '18',
-        'image': 'https://bscscan.com/token/images/loomtoken_32.png',
+        'image': 'https://bscscan.com/images/main/empty-token.png',
     },
 }
 ```
