@@ -8,8 +8,8 @@ apenas altere as opções em `addtometamask.js`, isso é tudo
 params: {
     'type': 'ERC20',
     'options': {
-        'address': '0xe6ce27025f13f5213bbc560dc275e292965a392f',
-        'symbol': 'LOOM',
+        'address': '0x6E712547f5372103d9c3918144f4cA6fe06cF2b1',
+        'symbol': 'LDSC',
         'decimals': '18',
         'image': 'https://bscscan.com/token/images/loomtoken_32.png',
     },
